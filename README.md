@@ -1,3 +1,4 @@
+Michael Jenkins
 # Sprint Challenge: Lambda Times (React)
 
 This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project. This Sprint explored Intermediate React, React Tooling, The React Life-cycle, React Composition Patterns and CSS-in-JS. In this Sprint Challenge, you will demonstrate proficiency by creating an application that uses to build a fully-functioning replicate of the LA-Times website.
@@ -29,9 +30,24 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 ## Self-Study/Essay Questions
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+
+    A.  PropTypes is React’s built-in type-checking tool. Errors in defining type-checks can derail a program entirely. In fact, many execution errors in       JavaScript are type errors- for instance, trying to divide by a string.
+
 - [ ] Describe a life-cycle event in React?
+
+    A.  The React Life-Cycle is where components get mounted to the DOM and unmounted, then when a component receives new data.
+
 - [ ] Explain the details of a Higher Order Component?
+
+    A.  A Higher Order Component is a React JS pattern that receives a Component as an argument, and then returns a new component.
+
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+
+    A.
+        CSS - Standard CSS files included in each component
+        Styled Components - This lets you create CSS similar to a specific CSS file.
+		Inline CSS - You can pass styling directly or create a variable to store the style property.
+
 
 ## Project Setup
 
